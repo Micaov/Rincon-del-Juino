@@ -1,0 +1,568 @@
+selector {
+    propiedad: valor;
+}
+
+/*RESETEO*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+li > a {
+    color: black; /* saca color por default de enlace */
+    text-decoration: none; /* saca subrayado por default enlaces */
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Le quieta el subrayado*/
+li>a {
+    text-decoration: none;
+
+}
+
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+}
+
+/*HTML-INICIO*/
+
+.title {
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+  
+  .titulo p{
+    position:absolute;
+    top:250px;
+    right:100px;
+    left: 200px;
+    font-size: 30px;
+    color: rgb(14, 14, 14);
+
+  }
+
+
+
+.subtitulo {
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs
+}
+
+/*media para tablets*/
+
+@media screen and (max-width: 1024px) {
+    .body {
+        background-color: #10100f;
+
+    }
+
+    
+
+.titulo p{
+
+        position:absolute;
+        top:45vh;
+        left: 15vh;
+        font-size: 20px;
+        color: rgb(14, 14, 14);
+    
+
+}
+
+.titulo img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+
+}
+
+/*servicios*/
+.imgcomidas{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+
+}
+
+ /*media para mobile*/
+
+@media screen and (max-width: 768px) {
+
+
+.fondoheader{
+
+    display: flex;
+    justify-content: space-betweet;
+    font-size: 2px;
+}
+nav ul {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 15px;
+  }
+
+  .titulo{
+    padding: 2px;
+    box-sizing: border-box;
+
+  }
+
+ 
+
+
+
+.mobile h2{
+padding:20px;
+    top: 70vh;
+
+color: #fbf9f9;
+ font-family: "Cedarville Cursive", cursive;
+ font-weight: 300;
+font-style: normal;
+
+  
+  
+
+
+}
+
+    .titulo img{
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    
+}
+
+.opciones_del_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/*servicio*/
+  .imgcomidas{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  
+
+  
+
+}   
+
+
+
+
+/*comienza*/
+.titulo{
+    padding: 2px;
+    box-sizing: border-box;
+
+
+}
+
+
+.titulo h2{
+    color: aliceblue;
+    top: 50vh;
+left: 1px;
+right: 2px;
+font-family:"Cedarville Cursive", cursive;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+
+}
+
+.titulo img{
+
+    margin: 5px;
+}
+.fondocuerpo {
+    background-color:#10100f;
+}
+
+
+
+.descrip {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.serviciosdisponibles{
+
+    border: 1px solid black;
+    padding: 20px 20px 200px 20px; 
+}
+
+header.fondoheader  {
+    background: #090909;
+    
+
+}
+header{
+    background-color: #8E6C49;
+}
+
+header {
+    font-size: 5px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  nav {
+    width: 50%;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+ 
+/*main*/
+.menu_card p{
+
+flex-grow:1;
+
+}
+.menu_card{
+
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid gray;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px 30px;
+    
+  }
+  .menu_card img{
+ 
+    width: 100%;
+  } 
+
+ .menu_card .ver_mas{
+
+text-decoration: none;
+color: rgb(243, 234, 234) ;
+text-transform:uppercase;
+font-weight: 600;
+background-color: rgb(147, 164, 150);
+padding: 10px;
+text-shadow: 3px 0px 3px #000000;
+border-radius: 15px 20px;
+
+  }
+  
+    .opciones_del_menu{
+        display: flex;
+        justify-content: space-evenly;
+        color: white
+
+    }
+
+
+
+    
+
+/*SERVICIOS*/
+
+.servicios {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    border:solid white
+    
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    top:50vh;
+    padding: 10px;
+    margin: 20px;
+    height: 100px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+    
+    
+
+/*Gatronomia*/
+
+
+
+
+
+.opciones_servicios{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px ;
+    justify-content: space-between;
+    margin: 20px;
+    
+    
+    
+    
+    
+
+}
+
+.grid_item{
+background-color: rgb(242, 222, 222);
+border: solid #000000;
+padding: 20px;
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 30px 30px;
+
+
+
+}
+
+.imgcomidas img{
+    
+    padding: 5px;
+
+}
+
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+.comidas{
+    display: flex;
+     height: 50%;
+     padding: 20px;
+    width: 50%;
+    height: 50%;
+    border: 2px;
+    
+
+}
+
+
+/*CAMPING*/
+
+.grid_item2{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+/*NOSOTROS..*/
+
+.nosotros {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 40px;
+    color: white;
+}
+.fondonosotros{
+
+    background: #000000;
+}
+
+.foto {
+    position: relative;
+  }
+
+
+  
+  
+  
+  
+
+.nosotros-grid {
+    display: grid;
+    width: 50vw;
+    margin: auto;
+    gap: 25px;
+  }
+  
+  .rincon1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  
+  .rincon2{
+      grid-column: 1/2;
+      grid-row: 2/3;
+  }
+  
+  .rincon3 {
+      grid-column: 2/3;
+      grid-row: 2/3;
+  }
+  
+  .rincon4{
+      grid-column: 3/4;
+      grid-row: 1/2;
+  }
+
+  .rincon5{
+grid-column: 3/3;
+grid-row: 2/3;
+
+  }
+  
+  .campo-img,
+.campo2-img,
+.campo3-img,
+.campo4-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+   
+
+   
+
+
+.encontranos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.contacto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+
+
+footer {
+
+    background-color: rgb(200, 200, 200);
+}
+
+
+
+.fondoheader nav{
+
+    height: 20%;
+    width: 100%;
+    
+}
+
+.container-fluid{
+    background: #8E6C49;
+    
+}
+
+.navbar-brand img{
+
+    height: 20vh;
+
+
+}
+
+.nav-item{
+
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-content: center;
+
+}
+#offcanvasNavbarLabel{
+    color:#000000;
+    
+}
+
+/*footer*/
+
+footer {
+    background-color: black;
+    padding-bottom: 10px;
+    color: #e9e9e9c2
+  }
+ 
+  footer div {
+    text-align: center;
+  }
+ 
+  footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    align-items: center;
+    font-size: 1vh;
+  }
+ 
+  footer ul i {
+    color: white;
+  }
+
+  footer p{
+    font-size: 15px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  i{
+    display: flex;
+    color: green;
+    padding: 20px;
+    display: flex;
+    font-size: 50px;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+ 
