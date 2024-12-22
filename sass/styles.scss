@@ -19,7 +19,7 @@
 
 /*color fondo de la web*/
 
-@import "./utilities/variable";
+@use "./utilities/variable" as *;
 
 .fondocuerpo {
     background-color: $fondo-cuerpo;
