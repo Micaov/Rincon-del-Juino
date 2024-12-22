@@ -33,8 +33,7 @@ body {
     font-style: normal;
 }
 
-/*HTML-INICIO*/
-
+/*HTML-INICIO*/ /*fijar si funciona*/
 .title {
 
     color: rgb(0, 0, 0);
@@ -225,6 +224,7 @@ header.fondoheader  {
     
 
 }
+
 header{
     background-color: #8E6C49;
 }

@@ -1,0 +1,27 @@
+@use "./utilities/variable";
+@use "./utilities/extend";
+@use "./utilities/mixin";
+
+
+
+@use "./global/reset";
+@use "./global/404" as error;
+
+@use "./components/header";
+@use "./components/footer";
+
+@use "./pages/main-index";
+
+@use "./utilities/media-query";
+
+
+
+
+/*color fondo de la web*/
+
+@import "./utilities/variable";
+
+.fondocuerpo {
+    background-color: $fondo-cuerpo;
+}
+

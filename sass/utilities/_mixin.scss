@@ -1,0 +1,73 @@
+@mixin menuimg {
+  border-radius: 20px;
+  width: 100%;
+}
+
+@mixin title-styles($font-size, $top, $color, $margin, $padding, $height, $justify-c, $aling-i) {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: $font-size;
+  top: $top;
+  color: $color;
+  text-align: center;
+  margin: $margin;
+  padding: $padding;
+  height: $height;
+  justify-content: $justify-c ;
+  align-items: $aling-i;
+}
+
+
+// Mixin para Flexbox
+@mixin flex-container($justify: space-between, $align: center, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+// Mixin para estilos de enlaces
+@mixin link-style($color: rgb(0, 0, 0), $hover-color: #daba3b) {
+  color: $color;
+  padding: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+
+  &:hover {
+    color: $hover-color;
+    text-decoration: underline;
+  }
+}
+
+
+// Mixin para imágenes responsivas
+@mixin responsive-image($width: 100%, $max-height: 50vh) {
+  width: $width;
+  max-height: $max-height;
+  object-fit: cover;
+}
+
+// Mixin para botones
+@mixin button-style($bg-color: rgb(147, 164, 150), $text-color: rgb(255, 255, 255)) {
+  text-decoration: none;
+  color: $text-color;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: $bg-color;
+  padding: 5px 10px;
+  text-shadow: 3px 0px 3px #000000;
+  border-radius: 15px 20px;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: rgb(6, 6, 6);
+  }
+}
+
+// Mixin para flexbox con alineación
+@mixin flex-center($justify: space-evenly, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+

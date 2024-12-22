@@ -1,0 +1,105 @@
+@use "../utilities/mixin" as *;
+
+footer {
+    background-color: black;
+    padding-bottom: 10px;
+    color: #e9e9e9c2;
+
+
+    & p {
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    & ul {
+        @include flex-container($justify: space-evenly);
+        height: 10vh;
+        align-items: center;
+        font-size: 1vh;
+
+        & i {
+            font-size: 50px;
+            color: rgb(252, 252, 252);
+        }
+    }
+
+  .copy {
+      background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  p {
+    margin: 40px;
+  }
+
+
+
+.social-icons a {
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+       }
+
+.social-icons a:hover {
+    transform: scale(1.3) rotate(15deg);
+     }
+
+}
+
+
+/*simbolo de whatssapp despues del footer*/
+
+div {
+
+
+ & a {
+        text-decoration: none;
+
+    }
+
+
+.whatsapp-icon {
+    @include flex-container($direction: row-reverse);
+    position:fixed;
+    bottom: 20px;   
+    right: 10px;    
+    font-size: 4rem; 
+    color: #25D366; 
+    text-decoration: none;
+    z-index: 1000;  
+}
+
+.whatsapp-bounce {
+    animation: bounce 1.5s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+}
+
+
+
+    .frase-final {
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 2rem;
+        color: #ffffff;
+        font-style: italic;
+      }
+
+
+

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    color: black;
+
+    a {
+        color: black;
+        /* saca color por default de enlace */
+        text-decoration: none;
+        /* saca subrayado por default enlaces */
+        font-size: 18px;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+}
